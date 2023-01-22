@@ -22,5 +22,5 @@ public abstract class Media {
     public abstract boolean checkOut(String name);
 
     //an abstract method named "checkIn" that takes a String variable "name" as a parameter and returns a boolean.
-    //public abstract boolean checkIn(String name);
+    public abstract boolean checkIn(String name);
 }
