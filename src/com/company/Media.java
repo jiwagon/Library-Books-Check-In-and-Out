@@ -15,7 +15,7 @@ public abstract class Media {
         this.subTitle = subTitle;
         this.totalNumCopies = numCopies;
         this.idNum = idNum;
-        this.heldBy = new ArrayList<String>();
+        this.heldBy = new ArrayList<>();
     }
 
     //An abstract method named "checkOut" that takes a String variable "name" as a parameter and returns a boolean.

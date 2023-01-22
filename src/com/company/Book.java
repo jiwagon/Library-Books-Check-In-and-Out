@@ -7,7 +7,6 @@ public class Book extends Media {
     //Store who the author of the book is in addition to the inherited fields.
     public Book(String title, String subTitle, int numCopies, int idNum, String author) {
         super(title, subTitle, numCopies, idNum);
-
         this.author = author;
     }
 
